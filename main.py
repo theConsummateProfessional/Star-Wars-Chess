@@ -2,7 +2,7 @@
 # Star Wars Chess
 # Project Start Date: December 14, 2019
 # Project End Date: 
-# Issue to work on:
+# Issue to work on: Add chess pieces tomorrow
 import pygame
 
 pygame.init()
