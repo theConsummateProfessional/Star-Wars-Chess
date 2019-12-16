@@ -10,8 +10,6 @@ pygame.init()
 win = pygame.display.set_mode((600, 600))
 pygame.display.set_caption("Star Wars Chess")
 
-cols = 0
-rows = 0
 
 run = True
 
