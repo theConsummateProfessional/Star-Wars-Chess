@@ -4,7 +4,9 @@
 # Project End Date: 
 # Issue to work on: Add chess pieces tomorrow
 import pygame
+import menu
 
+menu.initMenu()
 pygame.init()
 
 win = pygame.display.set_mode((600, 600))
