@@ -5,10 +5,9 @@
 # Issue to work on: Add chess pieces tomorrow
 import pygame
 import menu
-import multiprocessing
 
-menu.initMenu()
 menu.initCrawl()
+#menu.initMenu()
 pygame.init()
 
 win = pygame.display.set_mode((600, 600))
