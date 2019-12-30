@@ -19,45 +19,27 @@ def initCrawl():
 
 	white = (255, 255, 255)
 	play = createFont("Play Now")
+	settings = createFont("Settings")
+	quit = createFont("Quit")
 
 	run = True
 
 	while run:
 		for event in pygame.event.get():
 			if event.type == pygame.QUIT:
-				run = False
+				exit()
 
 		win.blit(bg, (0,0))
 
 
 		#pygame.draw.rect(win, (0, 0, 0), (50, 50, 200, 60))
 		win.blit(play, (50, 50))
+		win.blit(settings, (50, 197))
+		win.blit(quit, (50, 344))
 		pygame.display.update()
 
 
 	pygame.quit()
 
 
-# def initMenu():
-# 	bg = pygame.image.load('Death-Star.png')
-# 	win = pygame.display.set_mode((958, 540))
 
-# 	white = (255, 255, 255)
-# 	play = createFont("Play Now")
-
-# 	run = True
-
-# 	while run:
-# 		for event in pygame.event.get():
-# 			if event.type == pygame.QUIT:
-# 				run = False
-
-# 		win.blit(bg, (0,0))
-
-
-# 		#pygame.draw.rect(win, (0, 0, 0), (50, 50, 200, 60))
-# 		win.blit(play, (50, 50))
-# 		pygame.display.update()
-
-
-# 	pygame.quit()
